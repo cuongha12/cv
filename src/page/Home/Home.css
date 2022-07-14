@@ -2,3 +2,21 @@
     height: 500px;
     top: 10px;
 }
+.imga-banner{
+    width: 100%;
+    position: relative;
+}
+.content-banner{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    margin-top: -93px;
+    text-align: center;
+}
+.hrv-caption-inner {
+    
+}
+.hrv-banner-container .hrv-banner-content {
+    
+}

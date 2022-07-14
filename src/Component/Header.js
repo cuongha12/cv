@@ -7,7 +7,7 @@ import '../css/Header.css'
 
 function Header() {
   return (
-    <div>
+    <div className='headers'>
       {/* Header */}
 
       <header className='header bkg'>

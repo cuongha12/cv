@@ -3,7 +3,7 @@
     padding: 25px 0;
 }
 
-.container {
+.containers {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -383,7 +383,7 @@
 
 .dropdown-menus li a {
     margin: 0px !important;
-    padding: 6px 15px 6px 10px;
+    padding: 6px 0px 6px 10px;
     white-space: normal !important;
     font-size: 16px;
     line-height: 35px;
@@ -402,4 +402,7 @@
     visibility: visible;
     opacity: 1;
     transition-delay:  0.4s;
+}
+.headers{
+    margin-bottom: 100px;
 }
