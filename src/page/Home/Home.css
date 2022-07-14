@@ -1,22 +1,256 @@
-.banner{
-    height: 500px;
-    top: 10px;
-}
-.imga-banner{
-    width: 100%;
+.banner1 {
+    background-image: url('https://hstatic.net/349/1000150349/1000203344/slideshow_1.jpg?v=28');
+    height: 550px;
     position: relative;
+    width: 100%;
 }
-.content-banner{
+
+.hrv-banner-caption {
     position: absolute;
+    text-align: center;
     right: 0;
     left: 0;
     top: 50%;
     margin-top: -93px;
-    text-align: center;
 }
-.hrv-caption-inner {
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ .hrv-title{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 400;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name:  fadeInRight;
+    animation-name:  fadeInRight;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.hrv-text {
+    margin-left: 12px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name:  fadeInRight;
+    animation-name:  fadeInRight;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 1s;
+
+}
+
+.hrv-button {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 15px;
+    border-color: #28b241;
+    background: #28b241;
+    color: #ffffff;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name:  fadeInRight;
+    animation-name:  fadeInRight;
+    -webkit-animation-delay: s;
+    animation-delay: 2s;
+}
+
+.hrv-banner-caption a:hover {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 15px;
+    border-color: #28b241;
+    background: #28b241;
+    color: #ffffff;
+}
+.banner2 {
+    background-image: url('https://hstatic.net/349/1000150349/1000203344/slideshow_2.jpg?v=28');
+    height: 550px;
+    position: relative;
+    width: 100%;
+}
+.banner3{
+    background-image: url('https://hstatic.net/349/1000150349/1000203344/slideshow_3.jpg?v=28');
+    height: 550px;
+    position: relative;
+    width: 100%;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInRight{
+    0% {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeInTop{
+    0% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}
+.text-animation{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.title-animation{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 1s;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.button-animation{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 2s;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 15px;
+    border-color: #28b241;
+    background: #28b241;
+    color: #ffffff;
+}
+.texts-animation{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInTop;
+    animation-name: fadeInTop;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.titles-animation{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInTop;
+    animation-name: fadeInTop;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.8s;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.buttons-animation{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInTop;
+    animation-name: fadeInTop;
+    -webkit-animation-delay: 0.s;
+    animation-delay: 1.5s;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 15px;
+    border-color: #28b241;
+    background: #28b241;
+    color: #ffffff;
+}
+.ant-carousel .slick-dots li button {
+    display: block;
+    width: 15px !important;
+    height: 15px !important;
+    padding: 0;
+    color: transparent;
+    font-size: 0;
+    background: #fff;
+    border: 0;
+    border-radius: 50% !important;
+    outline: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.ant-carousel .slick-dots li.slick-active {
+    width: 16px !important;
     
 }
-.hrv-banner-container .hrv-banner-content {
-    
-}
+
+
