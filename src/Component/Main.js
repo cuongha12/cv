@@ -4,7 +4,7 @@ import { Layout } from 'antd';
 function Main({children}) {
 
   return (
-    <Layout>
+    <Layout style={{ background: '#fff'}}>
         <Header/>
         {children}
     </Layout>
